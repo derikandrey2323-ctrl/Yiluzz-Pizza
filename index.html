@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Carta digital de Yiluzz Pizza. Consulta nuestras pizzas y comidas rápidas.">
+  <meta name="theme-color" content="#151515">
+  <title>Yiluzz Pizza | Carta digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Yiluzz Pizza, inicio">
+      <span class="brand-mark" aria-hidden="true">🍕</span>
+      <span class="brand-name">YILUZZ <b>PIZZA</b></span>
+    </a>
+    <span class="menu-label">CARTA DIGITAL</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <span class="eyebrow">HECHO PARA DISFRUTAR</span>
+        <h1>EL SABOR QUE<br><em>TE ENCANTA</em></h1>
+        <p>Descubre nuestro menú y encuentra tu próximo antojo.</p>
+        <a class="hero-button" href="#menu">VER EL MENÚ <span>↓</span></a>
+      </div>
+      <div class="hero-stamp"><span>FRESCO</span><strong>🍅</strong><span>Y DELICIOSO</span></div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow red">NUESTROS PRODUCTOS</span>
+          <h2>ELIGE TU <em>FAVORITO</em></h2>
+        </div>
+        <p>Preparamos cada producto para que disfrutes cada bocado.</p>
+      </div>
+
+      <div class="tools">
+        <div class="categories" id="categories" aria-label="Categorías del menú">
+          <button class="category active" data-category="Todos">Todos</button>
+          <button class="category" data-category="Pizzas">🍕 Pizzas</button>
+          <button class="category" data-category="Hamburguesas">🍔 Hamburguesas</button>
+          <button class="category" data-category="Perros calientes">🌭 Perros</button>
+          <button class="category" data-category="Salchipapas">🍟 Salchipapas</button>
+          <button class="category" data-category="Bebidas">🥤 Bebidas</button>
+        </div>
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="Buscar un producto..." aria-label="Buscar un producto">
+        </label>
+      </div>
+
+      <div class="results-line"><span id="resultsCount">Nuestros productos</span><span>PRECIOS EN COP</span></div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      <p class="empty-state" id="emptyState" hidden>No encontramos productos con esa búsqueda.</p>
+    </section>
+
+    <section class="order-note">
+      <div class="order-icon">🔔</div>
+      <div>
+        <span class="eyebrow">¿YA SABES QUÉ VAS A PEDIR?</span>
+        <h2>¡LLAMA A NUESTRO <em>MESERO!</em></h2>
+        <p>Muéstrale los productos que elegiste y realiza tu pedido directamente en la mesa.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#">
+      <span class="brand-mark" aria-hidden="true">🍕</span>
+      <span class="brand-name">YILUZZ <b>PIZZA</b></span>
+    </a>
+    <p>Gracias por visitarnos. ¡Esperamos que disfrutes!</p>
+    <small>© <span id="year"></span> Yiluzz Pizza · Carta digital</small>
+  </footer>
+</body>
+</html>
