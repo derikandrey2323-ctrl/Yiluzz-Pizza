@@ -13,10 +13,10 @@ const productos = [
     { nombre: "Costillas", categoria: "Pizzas", precio: 9000, imagen: "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=600", descripcion: "Descripción pendiente." },
 
     // HAMBURGUESAS
-    { nombre: "Hamburguesa sencilla", categoria: "Hamburguesas", precio: 10000, imagen: "hamburguesa/sencilla.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Carne, Queso, Jamón, Queso, Papa fosforito." },
-    { nombre: "Hamburguesa con papas", categoria: "Hamburguesas", precio: 12000, imagen: "hamburguesa/con-papas.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Carne, Queso, Jamón, Queso, Papa fosforito, Porción de papas." },
-    { nombre: "Hamburguesa doble carne", categoria: "Hamburguesas", precio: 13000, imagen: "hamburguesa/doble-carne.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Dos carnes, Queso, Jamón, Queso, Papa fosforito." },
-    { nombre: "Hamburguesa doble carne con papas", categoria: "Hamburguesas", precio: 15000, imagen: "hamburguesa/doble-carne-papas.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Dos carnes, Queso, Jamón, Queso, Papa fosforito, Porción de papas." },
+    { nombre: "Hamburguesa sencilla", categoria: "Hamburguesas", precio: 10000, imagen: "hamburguesas/sencilla.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Carne, Queso, Jamón, Queso, Papa fosforito." },
+    { nombre: "Hamburguesa con papas", categoria: "Hamburguesas", precio: 12000, imagen: "hamburguesas/con-papas.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Carne, Queso, Jamón, Queso, Papa fosforito, Porción de papas." },
+    { nombre: "Hamburguesa doble carne", categoria: "Hamburguesas", precio: 13000, imagen: "hamburguesas/doble-carne.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Dos carnes, Queso, Jamón, Queso, Papa fosforito." },
+    { nombre: "Hamburguesa doble carne con papas", categoria: "Hamburguesas", precio: 15000, imagen: "hamburguesas/doble-carne-papas.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Dos carnes, Queso, Jamón, Queso, Papa fosforito, Porción de papas." },
     { nombre: "Hamburguesa de la casa", categoria: "Hamburguesas", precio: 14000, imagen: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600" },
     { nombre: "Hamburguesa de la casa con papas", categoria: "Hamburguesas", precio: 16000, imagen: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600" },
 
