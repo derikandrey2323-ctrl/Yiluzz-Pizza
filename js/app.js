@@ -113,23 +113,32 @@ function mostrarProductos() {
     contenedor.innerHTML = "";
 
     filtrados.forEach(producto => {
-        const tarjeta = document.createElement("article");
-        tarjeta.className = "product-card";
+    const tarjeta = document.createElement("article");
+    tarjeta.className = "product-card";
 
-        tarjeta.innerHTML = `
-            <img class="product-image"
-                 src="${producto.imagen}"
-                 alt="${producto.nombre}"
-                 loading="lazy">
+    tarjeta.innerHTML = `
+        <img class="product-image"
+         src="${producto.imagen}"
+         alt="${producto.nombre}"
+         loading="lazy">
 
-            <div class="product-info">
-                <h3>${producto.nombre}</h3>
-                <p class="product-price">${formatoPrecio(producto.precio)}</p>
-            </div>
-        `;
+    <div class="product-info">
+        <h3>${producto.nombre}</h3>
 
-        contenedor.appendChild(tarjeta);
-    });
+        ${producto.descripcion ? `
+            <p class="product-description">
+                ${producto.descripcion}
+            </p>
+        ` : ""}
+
+        <p class="product-price">
+            ${formatoPrecio(producto.precio)}
+        </p>
+    </div>
+    `;
+
+    contenedor.appendChild(tarjeta);
+});
 
     mensajeVacio.hidden = filtrados.length > 0;
 
