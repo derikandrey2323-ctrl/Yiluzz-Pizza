@@ -1,28 +1,28 @@
 const productos = [
     // PIZZAS
-    { nombre: "Hawaiana", categoria: "Pizzas", precio: 9000, imagen: "imagenes/pizzas/hawaiana.jpg", descripcion: "Jamón, Piña, Queso." },
-    { nombre: "Pollo con champiñones", categoria: "Pizzas", precio: 9000, imagen: "imagenes/pizzas/pollo-champinones.jpg", descripcion: "Jamón, Champiñones, Queso, Pollo." },
-    { nombre: "Campesina", categoria: "Pizzas", precio: 9000, imagen: "imagenes/pizzas/campesina.jpg", descripcion: "Jamón, Queso, Carne desmechada, Plátano maduro, Pimentón, Cebolla." },
-    { nombre: "Camarones", categoria: "Pizzas", precio: 10000, imagen: "imagenes/pizzas/camarones.jpg", descripcion: "Jamón, Queso, Camarones, Pimentón, Cebolla." },
-    { nombre: "Ranchera", categoria: "Pizzas", precio: 9000, imagen: "imagenes/pizzas/ranchera.jpg", descripcion: "Jamón, Queso, Chorizo." },
-    { nombre: "Mexicana", categoria: "Pizzas", precio: 9000, imagen: "imagenes/pizzas/mexicana.jpg", descripcion: "Jamón, Carne molida, Queso, Tostacos, Pimentón, Jalapeños." },
-    { nombre: "Pollo con tocineta", categoria: "Pizzas", precio: 9000, imagen: "imagenes/pizzas/pollo-tocineta.jpg", descripcion: "Jamón, Queso, Pollo, Tocineta." },
-    { nombre: "Criolla", categoria: "Pizzas", precio: 9000, imagen: "imagenes/pizzas/criolla.jpg", descripcion: "Jamón, Carne molida, Queso, Maíz." },
-    { nombre: "Carne", categoria: "Pizzas", precio: 9000, imagen: "imagenes/pizzas/carne.jpg", descripcion: "Jamón, Carne molida, Queso." },
-    { nombre: "Distraída", categoria: "Pizzas", precio: 9000, imagen: "imagenes/pizzas/distraida.jpg", descripcion: "Jamón, Champiñones, Queso, Carne picada, Maíz, Pimentón, Cebolla." },
+    { nombre: "Hawaiana", categoria: "Pizzas", precio: 9000, imagen: "pizzas/hawaiana.jpg", descripcion: "Jamón, Piña, Queso." },
+    { nombre: "Pollo con champiñones", categoria: "Pizzas", precio: 9000, imagen: "pizzas/pollo-champinones.jpg", descripcion: "Jamón, Champiñones, Queso, Pollo." },
+    { nombre: "Campesina", categoria: "Pizzas", precio: 9000, imagen: "pizzas/campesina.jpg", descripcion: "Jamón, Queso, Carne desmechada, Plátano maduro, Pimentón, Cebolla." },
+    { nombre: "Camarones", categoria: "Pizzas", precio: 10000, imagen: "pizzas/camarones.jpg", descripcion: "Jamón, Queso, Camarones, Pimentón, Cebolla." },
+    { nombre: "Ranchera", categoria: "Pizzas", precio: 9000, imagen: "pizzas/ranchera.jpg", descripcion: "Jamón, Queso, Chorizo." },
+    { nombre: "Mexicana", categoria: "Pizzas", precio: 9000, imagen: "pizzas/mexicana.jpg", descripcion: "Jamón, Carne molida, Queso, Tostacos, Pimentón, Jalapeños." },
+    { nombre: "Pollo con tocineta", categoria: "Pizzas", precio: 9000, imagen: "pizzas/pollo-tocineta.jpg", descripcion: "Jamón, Queso, Pollo, Tocineta." },
+    { nombre: "Criolla", categoria: "Pizzas", precio: 9000, imagen: "pizzas/criolla.jpg", descripcion: "Jamón, Carne molida, Queso, Maíz." },
+    { nombre: "Carne", categoria: "Pizzas", precio: 9000, imagen: "pizzas/carne.jpg", descripcion: "Jamón, Carne molida, Queso." },
+    { nombre: "Distraída", categoria: "Pizzas", precio: 9000, imagen: "pizzas/distraida.jpg", descripcion: "Jamón, Champiñones, Queso, Carne picada, Maíz, Pimentón, Cebolla." },
     { nombre: "Costillas", categoria: "Pizzas", precio: 9000, imagen: "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=600", descripcion: "Descripción pendiente." },
 
     // HAMBURGUESAS
-    { nombre: "Hamburguesa sencilla", categoria: "Hamburguesas", precio: 10000, imagen: "imagenes/hamburguesa/sencilla.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Carne, Queso, Jamón, Queso, Papa fosforito." },
-    { nombre: "Hamburguesa con papas", categoria: "Hamburguesas", precio: 12000, imagen: "imagenes/hamburguesa/con-papas.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Carne, Queso, Jamón, Queso, Papa fosforito, Porción de papas." },
-    { nombre: "Hamburguesa doble carne", categoria: "Hamburguesas", precio: 13000, imagen: "imagenes/hamburguesa/doble-carne.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Dos carnes, Queso, Jamón, Queso, Papa fosforito." },
-    { nombre: "Hamburguesa doble carne con papas", categoria: "Hamburguesas", precio: 15000, imagen: "imagenes/hamburguesa/doble-carne-papas.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Dos carnes, Queso, Jamón, Queso, Papa fosforito, Porción de papas." },
+    { nombre: "Hamburguesa sencilla", categoria: "Hamburguesas", precio: 10000, imagen: "hamburguesa/sencilla.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Carne, Queso, Jamón, Queso, Papa fosforito." },
+    { nombre: "Hamburguesa con papas", categoria: "Hamburguesas", precio: 12000, imagen: "hamburguesa/con-papas.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Carne, Queso, Jamón, Queso, Papa fosforito, Porción de papas." },
+    { nombre: "Hamburguesa doble carne", categoria: "Hamburguesas", precio: 13000, imagen: "hamburguesa/doble-carne.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Dos carnes, Queso, Jamón, Queso, Papa fosforito." },
+    { nombre: "Hamburguesa doble carne con papas", categoria: "Hamburguesas", precio: 15000, imagen: "hamburguesa/doble-carne-papas.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Dos carnes, Queso, Jamón, Queso, Papa fosforito, Porción de papas." },
     { nombre: "Hamburguesa de la casa", categoria: "Hamburguesas", precio: 14000, imagen: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600" },
     { nombre: "Hamburguesa de la casa con papas", categoria: "Hamburguesas", precio: 16000, imagen: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600" },
 
     // PERROS CALIENTES
-    { nombre: "Perro sencillo", categoria: "Perros calientes", precio: 10000, imagen: "imagenes/perros/perro-sencillo.jpg", descripcion: "Pan, Salchicha, Papa fosforito, Queso." },
-    { nombre: "Perro con papas", categoria: "Perros calientes", precio: 12000, imagen: "imagenes/perros/perro-con-papas.jpg", descripcion: "Pan, Salchicha, Papa fosforito, Queso, Porción de papas." },
+    { nombre: "Perro sencillo", categoria: "Perros calientes", precio: 10000, imagen: "perros/perro-sencillo.jpg", descripcion: "Pan, Salchicha, Papa fosforito, Queso." },
+    { nombre: "Perro con papas", categoria: "Perros calientes", precio: 12000, imagen: "perros/perro-con-papas.jpg", descripcion: "Pan, Salchicha, Papa fosforito, Queso, Porción de papas." },
 
     // SALCHIPAPAS Y PEPITOS
     { nombre: "Salchipapa", categoria: "Salchipapas", precio: 15000, imagen: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600" },
