@@ -78,7 +78,7 @@ const productos = [
 { nombre: "Coca-Cola 1.5L", categoria: "Bebidas", precio: 7500, imagen: "bebidas/cocacola-cuatro.jpg" },
 
 // GASEOSAS TRESLITO
-{ nombre: "Coca-Cola 3L", categoria: "Bebidas", precio: 12000, imagen: "bebidas/cocacola-treslitro.jpg" },
+{ nombre: "Coca-Cola 3L", categoria: "Bebidas", precio: 12000, imagen: "bebidas/cocacola-tres.jpg" },
 
 ];
 
