@@ -36,7 +36,7 @@ const productos = [
     { nombre: "Seven Up personal", categoria: "Bebidas", precio: 3000, imagen: "bebidas/sevenup-personal.jpg" },
     { nombre: "Ginger personal", categoria: "Bebidas", precio: 3000, imagen: "bebidas/ginger-personal.jpg" },
     { nombre: "Cuatro personal", categoria: "Bebidas", precio: 3000, imagen: "bebidas/cuatro-personal.jpg" },
-    { nombre: "Hipinto de piña personal", categoria: "Bebidas", precio: 3000, imagen: "bebidas/hipintopina-personal.jpg" },
+    { nombre: "Hipinto de piña personal", categoria: "Bebidas", precio: 3000, imagen: "bebidas/hipintopiña-personal.jpg" },
 
     { nombre: "Coca-Cola personal", categoria: "Bebidas", precio: 3500, imagen: "bebidas/cocacola-personal.jpg" },
     { nombre: "Agua personal", categoria: "Bebidas", precio: 2500, imagen: "bebidas/agua-personal.jpg" },
