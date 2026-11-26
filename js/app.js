@@ -10,7 +10,7 @@ const productos = [
     { nombre: "Criolla", categoria: "Pizzas", precio: 9000, imagen: "pizzas/criolla.jpg", descripcion: "Jamón, Carne molida, Queso, Maíz." },
     { nombre: "Carne", categoria: "Pizzas", precio: 9000, imagen: "pizzas/carne.jpg", descripcion: "Jamón, Carne molida, Queso." },
     { nombre: "Distraída", categoria: "Pizzas", precio: 9000, imagen: "pizzas/distraida.jpg", descripcion: "Jamón, Champiñones, Queso, Carne picada, Maíz, Pimentón, Cebolla." },
-    { nombre: "Costillas", categoria: "Pizzas", precio: 9000, imagen: "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=600", descripcion: "Descripción pendiente." },
+    { nombre: "Costillas", categoria: "Pizzas", precio: 9000, imagen: "pizzas/costillas.jpg", descripcion: "Jamón, Queso, Costillitas." },
 
     // HAMBURGUESAS
     { nombre: "Hamburguesa sencilla", categoria: "Hamburguesas", precio: 10000, imagen: "hamburguesas/sencilla.jpg", descripcion: "Pan, Lechuga, Cebolla, Tomate, Carne, Queso, Jamón, Queso, Papa fosforito." },
