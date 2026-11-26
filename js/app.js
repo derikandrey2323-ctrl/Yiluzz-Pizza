@@ -66,16 +66,20 @@ const productos = [
 { nombre: "Seven Up litro", categoria: "Bebidas", precio: 5000, imagen: "bebidas/sevenup-litro.jpg" },
 
 
-    // GASEOSAS DE LITRO Y CUARTO
-    ...["Manzana", "Colombiana", "Hipinto de piña", "Ginger", "Cuatro"].map(nombre => ({
-        nombre: nombre + " litro y cuarto",
-        categoria: "Bebidas",
-        precio: 7000,
-        imagen: "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=600"
-    })),
+   
+// GASEOSAS CUATRO
+{ nombre: "Manzana 1.5L", categoria: "Bebidas", precio: 7000, imagen: "bebidas/manzana-cuatro.jpg" },
+{ nombre: "Colombiana 1.5L", categoria: "Bebidas", precio: 7000, imagen: "bebidas/colombiana-cuatro.jpg" },
+{ nombre: "Hipinto de Piña 1.5L", categoria: "Bebidas", precio: 7000, imagen: "bebidas/hipintopiña-cuatro.jpg" },
+{ nombre: "Ginger 1.5L", categoria: "Bebidas", precio: 7000, imagen: "bebidas/ginger-cuatro.jpg" },
+{ nombre: "Cuatro 1.5L", categoria: "Bebidas", precio: 7000, imagen: "bebidas/cuatro-cuatro.jpg" },
 
-    { nombre: "Coca-Cola litro y cuarto", categoria: "Bebidas", precio: 7500, imagen: "https://images.unsplash.com/photo-1554866585-cd94860890b7?w=600" },
-    { nombre: "Coca-Cola 3 litros", categoria: "Bebidas", precio: 12000, imagen: "https://images.unsplash.com/photo-1554866585-cd94860890b7?w=600" }
+// COCA-COLA CUATRO
+{ nombre: "Coca-Cola 1.5L", categoria: "Bebidas", precio: 7500, imagen: "bebidas/cocacola-cuatro.jpg" },
+
+// GASEOSAS TRESLITO
+{ nombre: "Coca-Cola 3L", categoria: "Bebidas", precio: 12000, imagen: "bebidas/cocacola-treslito.jpg" },
+
 ];
 
 // ELEMENTOS DEL HTML
