@@ -46,23 +46,25 @@ const productos = [
     { nombre: "Jugo HIT personal Mango", categoria: "Bebidas", precio: 3500, imagen: "bebidas/mango-personal.jpg" },
     { nombre: "Jugo HIT personal Naranja piña", categoria: "Bebidas", precio: 3500, imagen: "bebidas/naranjapiña-personal.jpg" },
     { nombre: "Jugo HIT personal Mora", categoria: "Bebidas", precio: 3500, imagen: "bebidas/mora-personal.jpg" },
-    { nombre: "Jugo HIT personal Frutas tropicales", categoria: "Bebidas", precio: 3500, imagen: "bebidas/frutastropical-personal.jpg" },
+    { nombre: "Jugo HIT personal Frutas Tropicales", categoria: "Bebidas", precio: 3500, imagen: "bebidas/frutastropical-personal.jpg" },
 
-    // JUGOS HIT DE LITRO
-    ...["Mora", "Mango", "Naranja piña", "Naranja", "Frutas tropicales"].map(nombre => ({
-        nombre: "Jugo HIT litro " + nombre,
-        categoria: "Bebidas",
-        precio: 5000,
-        imagen: "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=600"
-    })),
+   
+// JUGOS HIT DE LITRO
+{ nombre: "Jugo HIT litro Mora", categoria: "Bebidas", precio: 5000, imagen: "bebidas/mora-litro.jpg" },
+{ nombre: "Jugo HIT litro Mango", categoria: "Bebidas", precio: 5000, imagen: "bebidas/mango-litro.jpg" },
+{ nombre: "Jugo HIT litro Naranja piña", categoria: "Bebidas", precio: 5000, imagen: "bebidas/naranjapiña-litro.jpg" },
+{ nombre: "Jugo HIT litro Naranja", categoria: "Bebidas", precio: 5000, imagen: "bebidas/naranja-litro.jpg" },
+{ nombre: "Jugo HIT litro Frutas Tropicales", categoria: "Bebidas", precio: 5000, imagen: "bebidas/frutastropical-litro.jpg" },
 
-    // GASEOSAS DE LITRO
-    ...["Manzana", "Colombiana", "Pepsi", "Coca-Cola", "Naranja", "Uva", "Seven Up"].map(nombre => ({
-        nombre: nombre + " litro",
-        categoria: "Bebidas",
-        precio: 5000,
-        imagen: "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=600"
-    })),
+// GASEOSAS DE LITRO
+{ nombre: "Manzana litro", categoria: "Bebidas", precio: 5000, imagen: "bebidas/manzana-litro.jpg" },
+{ nombre: "Colombiana litro", categoria: "Bebidas", precio: 5000, imagen: "bebidas/colombiana-litro.jpg" },
+{ nombre: "Pepsi litro", categoria: "Bebidas", precio: 5000, imagen: "bebidas/pepsi-litro.jpg" },
+{ nombre: "Coca-Cola litro", categoria: "Bebidas", precio: 5000, imagen: "bebidas/cocacola-litro.jpg" },
+{ nombre: "Naranja litro", categoria: "Bebidas", precio: 5000, imagen: "bebidas/gaseosanaranja-litro.jpg" },
+{ nombre: "Uva litro", categoria: "Bebidas", precio: 5000, imagen: "bebidas/uva-litro.jpg" },
+{ nombre: "Seven Up litro", categoria: "Bebidas", precio: 5000, imagen: "bebidas/sevenup-litro.jpg" },
+
 
     // GASEOSAS DE LITRO Y CUARTO
     ...["Manzana", "Colombiana", "Hipinto de piña", "Ginger", "Cuatro"].map(nombre => ({
