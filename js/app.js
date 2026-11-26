@@ -40,13 +40,13 @@ const productos = [
 
     { nombre: "Coca-Cola personal", categoria: "Bebidas", precio: 3500, imagen: "bebidas/cocacola-personal.jpg" },
     { nombre: "Agua personal", categoria: "Bebidas", precio: 2500, imagen: "bebidas/agua-personal.jpg" },
-    { nombre: "Soda", categoria: "Bebidas", precio: 3000, imagen: "bebidas/soda.jpg" },
+    { nombre: "Soda", categoria: "Bebidas", precio: 3000, imagen: "bebidas/soda-personal.jpg" },
 
     // JUGOS HIT PERSONALES
     { nombre: "Jugo HIT personal Mango", categoria: "Bebidas", precio: 3500, imagen: "bebidas/mango-personal.jpg" },
-    { nombre: "Jugo HIT personal Naranja piña", categoria: "Bebidas", precio: 3500, imagen: "bebidas/naranjapina-personal.jpg" },
+    { nombre: "Jugo HIT personal Naranja piña", categoria: "Bebidas", precio: 3500, imagen: "bebidas/naranjapiña-personal.jpg" },
     { nombre: "Jugo HIT personal Mora", categoria: "Bebidas", precio: 3500, imagen: "bebidas/mora-personal.jpg" },
-    { nombre: "Jugo HIT personal Frutas tropicales", categoria: "Bebidas", precio: 3500, imagen: "bebidas/frutastropicales-personal.jpg" },
+    { nombre: "Jugo HIT personal Frutas tropicales", categoria: "Bebidas", precio: 3500, imagen: "bebidas/frutastropical-personal.jpg" },
 
     // JUGOS HIT DE LITRO
     ...["Mora", "Mango", "Naranja piña", "Naranja", "Frutas tropicales"].map(nombre => ({
