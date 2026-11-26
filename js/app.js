@@ -29,24 +29,24 @@ const productos = [
     { nombre: "Pepito", categoria: "Pepitos", precio: 15000, imagen: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600" },
 
     // BEBIDAS PERSONALES
-    ...["Manzana", "Colombiana", "Seven Up", "Ginger", "Cuatro", "Hipinto de piña"].map(nombre => ({
-        nombre: nombre + " personal",
-        categoria: "Bebidas",
-        precio: 3000,
-        imagen: "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=600"
-    })),
+    
+    // BEBIDAS PERSONALES
+    { nombre: "Manzana personal", categoria: "Bebidas", precio: 3000, imagen: "bebidas/manzana-personal.jpg" },
+    { nombre: "Colombiana personal", categoria: "Bebidas", precio: 3000, imagen: "bebidas/colombiana-personal.jpg" },
+    { nombre: "Seven Up personal", categoria: "Bebidas", precio: 3000, imagen: "bebidas/sevenup-personal.jpg" },
+    { nombre: "Ginger personal", categoria: "Bebidas", precio: 3000, imagen: "bebidas/ginger-personal.jpg" },
+    { nombre: "Cuatro personal", categoria: "Bebidas", precio: 3000, imagen: "bebidas/cuatro-personal.jpg" },
+    { nombre: "Hipinto de piña personal", categoria: "Bebidas", precio: 3000, imagen: "bebidas/hipintopina-personal.jpg" },
 
-    { nombre: "Coca-Cola personal", categoria: "Bebidas", precio: 3500, imagen: "https://images.unsplash.com/photo-1554866585-cd94860890b7?w=600" },
-    { nombre: "Agua personal", categoria: "Bebidas", precio: 2500, imagen: "https://images.unsplash.com/photo-1560023907-5f339617ea30?w=600" },
-    { nombre: "Soda", categoria: "Bebidas", precio: 3000, imagen: "https://images.unsplash.com/photo-1544145945-f90425340c7e?w=600" },
+    { nombre: "Coca-Cola personal", categoria: "Bebidas", precio: 3500, imagen: "bebidas/cocacola-personal.jpg" },
+    { nombre: "Agua personal", categoria: "Bebidas", precio: 2500, imagen: "bebidas/agua-personal.jpg" },
+    { nombre: "Soda", categoria: "Bebidas", precio: 3000, imagen: "bebidas/soda.jpg" },
 
     // JUGOS HIT PERSONALES
-    ...["Mango", "Naranja piña", "Mora", "Frutas tropicales"].map(nombre => ({
-        nombre: "Jugo HIT personal " + nombre,
-        categoria: "Bebidas",
-        precio: 3500,
-        imagen: "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?w=600"
-    })),
+    { nombre: "Jugo HIT personal Mango", categoria: "Bebidas", precio: 3500, imagen: "bebidas/mango-personal.jpg" },
+    { nombre: "Jugo HIT personal Naranja piña", categoria: "Bebidas", precio: 3500, imagen: "bebidas/naranjapina-personal.jpg" },
+    { nombre: "Jugo HIT personal Mora", categoria: "Bebidas", precio: 3500, imagen: "bebidas/mora-personal.jpg" },
+    { nombre: "Jugo HIT personal Frutas tropicales", categoria: "Bebidas", precio: 3500, imagen: "bebidas/frutastropicales-personal.jpg" },
 
     // JUGOS HIT DE LITRO
     ...["Mora", "Mango", "Naranja piña", "Naranja", "Frutas tropicales"].map(nombre => ({
